@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
   resources :posts
   resources :people
+<<<<<<< HEAD
   resources :people
+=======
+>>>>>>> 6137f540dd17543abf62c342d466bad567cbdacc
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -13,4 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+<<<<<<< HEAD
 //= require_tree .
+=======
+
+>>>>>>> 6137f540dd17543abf62c342d466bad567cbdacc

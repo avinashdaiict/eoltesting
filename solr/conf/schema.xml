@@ -65,6 +65,7 @@
         <filter class="solr.StandardFilterFactory"/>
         <filter class="solr.LowerCaseFilterFactory"/>
         <filter class="solr.PorterStemFilterFactory"/>
+<<<<<<< HEAD
         <filter class="solr.NGramFilterFactory" minGramSize="2" maxGramSize="15"/>
 
       </analyzer>
@@ -74,6 +75,9 @@
     <filter class="solr.LowerCaseFilterFactory"/>
   </analyzer>
 
+=======
+      </analyzer>
+>>>>>>> 6137f540dd17543abf62c342d466bad567cbdacc
     </fieldType>
     <!-- *** This fieldType is used by Sunspot! *** -->
     <fieldType name="boolean" class="solr.BoolField" omitNorms="true"/>

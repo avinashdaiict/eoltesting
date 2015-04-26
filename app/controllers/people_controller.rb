@@ -4,11 +4,21 @@ class PeopleController < ApplicationController
   # GET /people
   # GET /people.json
   def index
+<<<<<<< HEAD
    @search = Person.search do
 fulltext params[:search]
 end
 @people = @search.results
   end
+=======
+     def index
+     @search = Person.search do
+     fulltext params[:search]
+     end
+    @people = @search.results
+  end
+    end
+>>>>>>> 6137f540dd17543abf62c342d466bad567cbdacc
 
   # GET /people/1
   # GET /people/1.json

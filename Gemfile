@@ -3,8 +3,13 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
+<<<<<<< HEAD
 # Use mysql as the database for Active Record
 gem 'mysql2'
+=======
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3'
+>>>>>>> 6137f540dd17543abf62c342d466bad567cbdacc
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -38,6 +43,7 @@ group :development, :test do
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
+<<<<<<< HEAD
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
@@ -47,5 +53,18 @@ group :development, :test do
 gem 'sunspot_rails'
   gem 'populator'
   gem 'faker'
+=======
+  gem 'will_paginate'
+  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+  gem 'spring'
+  gem 'progress_bar'
+  group :development do
+    gem 'sunspot_solr'
+   gem 'sunspot_rails'
+gem 'populator'
+gem 'faker'
+
+  end
+>>>>>>> 6137f540dd17543abf62c342d466bad567cbdacc
 end
 
